@@ -5,7 +5,7 @@ const DB_NAME = 'KanaMasterAudio'
 const STORE_NAME = 'audios'
 const DB_VERSION = 1
 
-// IndexedDB 绠＄悊
+// IndexedDB management
 function openDB() {
     return new Promise((resolve, reject) => {
         const request = indexedDB.open(DB_NAME, DB_VERSION)
@@ -45,9 +45,10 @@ async function isCached(char) {
     return blob !== undefined
 }
 
-// 闊抽婧愶細浣跨敤鑵捐浜?COS 涓婄殑棰勫綍闊抽锛堟潵鑷師椤圭洰锛?const AUDIO_BASE_URL = 'https://lg-l9n48822-1257392927.cos.ap-shanghai.myqcloud.com'
+// Audio source: pre-recorded audio from Tencent COS
+const AUDIO_BASE_URL = 'https://lg-l9n48822-1257392927.cos.ap-shanghai.myqcloud.com'
 
-// 棰勪笅杞芥墍鏈夊熀纭€鍋囧悕鐨勯煶棰?async function preloadAudio(char) {
+async function preloadAudio(char) {
     if (await isCached(char)) return
     try {
         const url = `${AUDIO_BASE_URL}/${encodeURIComponent(char)}.mp3`
@@ -61,23 +62,23 @@ async function isCached(char) {
     }
 }
 
-// 棰勫姞杞芥墍鏈夐煶棰戯紙寮傛锛屼笉闃诲锛?export async function preloadAllAudios(chars) {
-    // 鎵归噺棰勫姞杞斤紝鏈€澶氬悓鏃?涓?    const batch = 3
+// Preload all audios (async, non-blocking)
+export async function preloadAllAudios(chars) {
+    const batch = 3
     for (let i = 0; i < chars.length; i += batch) {
         const chunk = chars.slice(i, i + batch)
         await Promise.all(chunk.map(c => preloadAudio(c)))
     }
 }
 
-// 鎾斁鏈湴缂撳瓨闊抽
 async function playLocalAudio(char) {
     const blob = await getAudio(char)
     if (!blob) return false
-    
+
     const url = URL.createObjectURL(blob)
     const audio = new Audio(url)
     audio.volume = volume.value
-    
+
     return new Promise((resolve) => {
         audio.onended = () => {
             URL.revokeObjectURL(url)
@@ -91,7 +92,7 @@ async function playLocalAudio(char) {
     })
 }
 
-// 闄嶇骇锛氭祻瑙堝櫒璇煶鍚堟垚
+// Fallback: browser speech synthesis
 function speakBrowser(text) {
     if (!('speechSynthesis' in window)) return
     speechSynthesis.cancel()
@@ -108,7 +109,6 @@ function speakBrowser(text) {
 
 export function useTTS() {
     async function playPronunciation(text) {
-        // 濡傛灉鏄崟涓亣鍚嶅瓧绗︼紝浼樺厛灏濊瘯鏈湴缂撳瓨
         if (text.length === 1 && /[\u3040-\u309F\u30A0-\u30FF]/.test(text)) {
             try {
                 if (await playLocalAudio(text)) {
@@ -118,7 +118,6 @@ export function useTTS() {
                 console.warn('Local audio failed, fallback to browser TTS')
             }
         }
-        // 闄嶇骇鍒版祻瑙堝櫒璇煶
         speakBrowser(text)
     }
 

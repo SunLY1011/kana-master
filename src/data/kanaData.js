@@ -1,147 +1,147 @@
 export const seionData = [
-    { hira: '銇?, kata: '銈?, romaji: 'a', row: 'a', col: 0 },
-    { hira: '銇?, kata: '銈?, romaji: 'i', row: 'a', col: 1 },
-    { hira: '銇?, kata: '銈?, romaji: 'u', row: 'a', col: 2 },
-    { hira: '銇?, kata: '銈?, romaji: 'e', row: 'a', col: 3 },
-    { hira: '銇?, kata: '銈?, romaji: 'o', row: 'a', col: 4 },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'ka', row: 'ka', col: 0 },
-    { hira: '銇?, kata: '銈?, romaji: 'ki', row: 'ka', col: 1 },
-    { hira: '銇?, kata: '銈?, romaji: 'ku', row: 'ka', col: 2 },
-    { hira: '銇?, kata: '銈?, romaji: 'ke', row: 'ka', col: 3 },
-    { hira: '銇?, kata: '銈?, romaji: 'ko', row: 'ka', col: 4 },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'sa', row: 'sa', col: 0 },
-    { hira: '銇?, kata: '銈?, romaji: 'shi', row: 'sa', col: 1 },
-    { hira: '銇?, kata: '銈?, romaji: 'su', row: 'sa', col: 2 },
-    { hira: '銇?, kata: '銈?, romaji: 'se', row: 'sa', col: 3 },
-    { hira: '銇?, kata: '銈?, romaji: 'so', row: 'sa', col: 4 },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'ta', row: 'ta', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'chi', row: 'ta', col: 1 },
-    { hira: '銇?, kata: '銉?, romaji: 'tsu', row: 'ta', col: 2 },
-    { hira: '銇?, kata: '銉?, romaji: 'te', row: 'ta', col: 3 },
-    { hira: '銇?, kata: '銉?, romaji: 'to', row: 'ta', col: 4 },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'na', row: 'na', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'ni', row: 'na', col: 1 },
-    { hira: '銇?, kata: '銉?, romaji: 'nu', row: 'na', col: 2 },
-    { hira: '銇?, kata: '銉?, romaji: 'ne', row: 'na', col: 3 },
-    { hira: '銇?, kata: '銉?, romaji: 'no', row: 'na', col: 4 },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'ha', row: 'ha', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'hi', row: 'ha', col: 1 },
-    { hira: '銇?, kata: '銉?, romaji: 'fu', row: 'ha', col: 2 },
-    { hira: '銇?, kata: '銉?, romaji: 'he', row: 'ha', col: 3 },
-    { hira: '銇?, kata: '銉?, romaji: 'ho', row: 'ha', col: 4 },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'ma', row: 'ma', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'mi', row: 'ma', col: 1 },
-    { hira: '銈€', kata: '銉?, romaji: 'mu', row: 'ma', col: 2 },
-    { hira: '銈?, kata: '銉?, romaji: 'me', row: 'ma', col: 3 },
-    { hira: '銈?, kata: '銉?, romaji: 'mo', row: 'ma', col: 4 },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'ya', row: 'ya', col: 0 },
+    { hira: 'あ', kata: 'ア', romaji: 'a', row: 'a', col: 0 },
+    { hira: 'い', kata: 'イ', romaji: 'i', row: 'a', col: 1 },
+    { hira: 'う', kata: 'ウ', romaji: 'u', row: 'a', col: 2 },
+    { hira: 'え', kata: 'エ', romaji: 'e', row: 'a', col: 3 },
+    { hira: 'お', kata: 'オ', romaji: 'o', row: 'a', col: 4 },
+
+    { hira: 'か', kata: 'カ', romaji: 'ka', row: 'ka', col: 0 },
+    { hira: 'き', kata: 'キ', romaji: 'ki', row: 'ka', col: 1 },
+    { hira: 'く', kata: 'ク', romaji: 'ku', row: 'ka', col: 2 },
+    { hira: 'け', kata: 'ケ', romaji: 'ke', row: 'ka', col: 3 },
+    { hira: 'こ', kata: 'コ', romaji: 'ko', row: 'ka', col: 4 },
+
+    { hira: 'さ', kata: 'サ', romaji: 'sa', row: 'sa', col: 0 },
+    { hira: 'し', kata: 'シ', romaji: 'shi', row: 'sa', col: 1 },
+    { hira: 'す', kata: 'ス', romaji: 'su', row: 'sa', col: 2 },
+    { hira: 'せ', kata: 'セ', romaji: 'se', row: 'sa', col: 3 },
+    { hira: 'そ', kata: 'ソ', romaji: 'so', row: 'sa', col: 4 },
+
+    { hira: 'た', kata: 'タ', romaji: 'ta', row: 'ta', col: 0 },
+    { hira: 'ち', kata: 'チ', romaji: 'chi', row: 'ta', col: 1 },
+    { hira: 'つ', kata: 'ツ', romaji: 'tsu', row: 'ta', col: 2 },
+    { hira: 'て', kata: 'テ', romaji: 'te', row: 'ta', col: 3 },
+    { hira: 'と', kata: 'ト', romaji: 'to', row: 'ta', col: 4 },
+
+    { hira: 'な', kata: 'ナ', romaji: 'na', row: 'na', col: 0 },
+    { hira: 'に', kata: 'ニ', romaji: 'ni', row: 'na', col: 1 },
+    { hira: 'ぬ', kata: 'ヌ', romaji: 'nu', row: 'na', col: 2 },
+    { hira: 'ね', kata: 'ネ', romaji: 'ne', row: 'na', col: 3 },
+    { hira: 'の', kata: 'ノ', romaji: 'no', row: 'na', col: 4 },
+
+    { hira: 'は', kata: 'ハ', romaji: 'ha', row: 'ha', col: 0 },
+    { hira: 'ひ', kata: 'ヒ', romaji: 'hi', row: 'ha', col: 1 },
+    { hira: 'ふ', kata: 'フ', romaji: 'fu', row: 'ha', col: 2 },
+    { hira: 'へ', kata: 'ヘ', romaji: 'he', row: 'ha', col: 3 },
+    { hira: 'ほ', kata: 'ホ', romaji: 'ho', row: 'ha', col: 4 },
+
+    { hira: 'ま', kata: 'マ', romaji: 'ma', row: 'ma', col: 0 },
+    { hira: 'み', kata: 'ミ', romaji: 'mi', row: 'ma', col: 1 },
+    { hira: 'む', kata: 'ム', romaji: 'mu', row: 'ma', col: 2 },
+    { hira: 'め', kata: 'メ', romaji: 'me', row: 'ma', col: 3 },
+    { hira: 'も', kata: 'モ', romaji: 'mo', row: 'ma', col: 4 },
+
+    { hira: 'や', kata: 'ヤ', romaji: 'ya', row: 'ya', col: 0 },
     { hira: '', kata: '', romaji: '', row: 'ya', col: 1 },
-    { hira: '銈?, kata: '銉?, romaji: 'yu', row: 'ya', col: 2 },
+    { hira: 'ゆ', kata: 'ユ', romaji: 'yu', row: 'ya', col: 2 },
     { hira: '', kata: '', romaji: '', row: 'ya', col: 3 },
-    { hira: '銈?, kata: '銉?, romaji: 'yo', row: 'ya', col: 4 },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'ra', row: 'ra', col: 0 },
-    { hira: '銈?, kata: '銉?, romaji: 'ri', row: 'ra', col: 1 },
-    { hira: '銈?, kata: '銉?, romaji: 'ru', row: 'ra', col: 2 },
-    { hira: '銈?, kata: '銉?, romaji: 're', row: 'ra', col: 3 },
-    { hira: '銈?, kata: '銉?, romaji: 'ro', row: 'ra', col: 4 },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'wa', row: 'wa', col: 0 },
+    { hira: 'よ', kata: 'ヨ', romaji: 'yo', row: 'ya', col: 4 },
+
+    { hira: 'ら', kata: 'ラ', romaji: 'ra', row: 'ra', col: 0 },
+    { hira: 'り', kata: 'リ', romaji: 'ri', row: 'ra', col: 1 },
+    { hira: 'る', kata: 'ル', romaji: 'ru', row: 'ra', col: 2 },
+    { hira: 'れ', kata: 'レ', romaji: 're', row: 'ra', col: 3 },
+    { hira: 'ろ', kata: 'ロ', romaji: 'ro', row: 'ra', col: 4 },
+
+    { hira: 'わ', kata: 'ワ', romaji: 'wa', row: 'wa', col: 0 },
     { hira: '', kata: '', romaji: '', row: 'wa', col: 1 },
     { hira: '', kata: '', romaji: '', row: 'wa', col: 2 },
     { hira: '', kata: '', romaji: '', row: 'wa', col: 3 },
-    { hira: '銈?, kata: '銉?, romaji: 'wo', row: 'wa', col: 4 },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'n', row: 'n', col: 0 },
+    { hira: 'を', kata: 'ヲ', romaji: 'wo', row: 'wa', col: 4 },
+
+    { hira: 'ん', kata: 'ン', romaji: 'n', row: 'n', col: 0 },
 ]
 
 export const dakuonData = [
-    { hira: '銇?, kata: '銈?, romaji: 'ga', row: 'ga', col: 0 },
-    { hira: '銇?, kata: '銈?, romaji: 'gi', row: 'ga', col: 1 },
-    { hira: '銇?, kata: '銈?, romaji: 'gu', row: 'ga', col: 2 },
-    { hira: '銇?, kata: '銈?, romaji: 'ge', row: 'ga', col: 3 },
-    { hira: '銇?, kata: '銈?, romaji: 'go', row: 'ga', col: 4 },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'za', row: 'za', col: 0 },
-    { hira: '銇?, kata: '銈?, romaji: 'ji', row: 'za', col: 1 },
-    { hira: '銇?, kata: '銈?, romaji: 'zu', row: 'za', col: 2 },
-    { hira: '銇?, kata: '銈?, romaji: 'ze', row: 'za', col: 3 },
-    { hira: '銇?, kata: '銈?, romaji: 'zo', row: 'za', col: 4 },
-    
-    { hira: '銇?, kata: '銉€', romaji: 'da', row: 'da', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'ji', row: 'da', col: 1 },
-    { hira: '銇?, kata: '銉?, romaji: 'zu', row: 'da', col: 2 },
-    { hira: '銇?, kata: '銉?, romaji: 'de', row: 'da', col: 3 },
-    { hira: '銇?, kata: '銉?, romaji: 'do', row: 'da', col: 4 },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'ba', row: 'ba', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'bi', row: 'ba', col: 1 },
-    { hira: '銇?, kata: '銉?, romaji: 'bu', row: 'ba', col: 2 },
-    { hira: '銇?, kata: '銉?, romaji: 'be', row: 'ba', col: 3 },
-    { hira: '銇?, kata: '銉?, romaji: 'bo', row: 'ba', col: 4 },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'pa', row: 'pa', col: 0 },
-    { hira: '銇?, kata: '銉?, romaji: 'pi', row: 'pa', col: 1 },
-    { hira: '銇?, kata: '銉?, romaji: 'pu', row: 'pa', col: 2 },
-    { hira: '銇?, kata: '銉?, romaji: 'pe', row: 'pa', col: 3 },
-    { hira: '銇?, kata: '銉?, romaji: 'po', row: 'pa', col: 4 },
+    { hira: 'が', kata: 'ガ', romaji: 'ga', row: 'ga', col: 0 },
+    { hira: 'ぎ', kata: 'ギ', romaji: 'gi', row: 'ga', col: 1 },
+    { hira: 'ぐ', kata: 'グ', romaji: 'gu', row: 'ga', col: 2 },
+    { hira: 'げ', kata: 'ゲ', romaji: 'ge', row: 'ga', col: 3 },
+    { hira: 'ご', kata: 'ゴ', romaji: 'go', row: 'ga', col: 4 },
+
+    { hira: 'ざ', kata: 'ザ', romaji: 'za', row: 'za', col: 0 },
+    { hira: 'じ', kata: 'ジ', romaji: 'ji', row: 'za', col: 1 },
+    { hira: 'ず', kata: 'ズ', romaji: 'zu', row: 'za', col: 2 },
+    { hira: 'ぜ', kata: 'ゼ', romaji: 'ze', row: 'za', col: 3 },
+    { hira: 'ぞ', kata: 'ゾ', romaji: 'zo', row: 'za', col: 4 },
+
+    { hira: 'だ', kata: 'ダ', romaji: 'da', row: 'da', col: 0 },
+    { hira: 'ぢ', kata: 'ヂ', romaji: 'ji', row: 'da', col: 1 },
+    { hira: 'づ', kata: 'ヅ', romaji: 'zu', row: 'da', col: 2 },
+    { hira: 'で', kata: 'デ', romaji: 'de', row: 'da', col: 3 },
+    { hira: 'ど', kata: 'ド', romaji: 'do', row: 'da', col: 4 },
+
+    { hira: 'ば', kata: 'バ', romaji: 'ba', row: 'ba', col: 0 },
+    { hira: 'び', kata: 'ビ', romaji: 'bi', row: 'ba', col: 1 },
+    { hira: 'ぶ', kata: 'ブ', romaji: 'bu', row: 'ba', col: 2 },
+    { hira: 'べ', kata: 'ベ', romaji: 'be', row: 'ba', col: 3 },
+    { hira: 'ぼ', kata: 'ボ', romaji: 'bo', row: 'ba', col: 4 },
+
+    { hira: 'ぱ', kata: 'パ', romaji: 'pa', row: 'pa', col: 0 },
+    { hira: 'ぴ', kata: 'ピ', romaji: 'pi', row: 'pa', col: 1 },
+    { hira: 'ぷ', kata: 'プ', romaji: 'pu', row: 'pa', col: 2 },
+    { hira: 'ぺ', kata: 'ペ', romaji: 'pe', row: 'pa', col: 3 },
+    { hira: 'ぽ', kata: 'ポ', romaji: 'po', row: 'pa', col: 4 },
 ]
 
 export const youonData = [
-    { hira: '銇嶃們', kata: '銈儯', romaji: 'kya', row: 'kya', col: 0 },
-    { hira: '銇嶃倕', kata: '銈儱', romaji: 'kyu', row: 'kya', col: 2 },
-    { hira: '銇嶃倗', kata: '銈儳', romaji: 'kyo', row: 'kya', col: 4 },
-    
-    { hira: '銇椼們', kata: '銈枫儯', romaji: 'sha', row: 'sha', col: 0 },
-    { hira: '銇椼倕', kata: '銈枫儱', romaji: 'shu', row: 'sha', col: 2 },
-    { hira: '銇椼倗', kata: '銈枫儳', romaji: 'sho', row: 'sha', col: 4 },
-    
-    { hira: '銇°們', kata: '銉併儯', romaji: 'cha', row: 'cha', col: 0 },
-    { hira: '銇°倕', kata: '銉併儱', romaji: 'chu', row: 'cha', col: 2 },
-    { hira: '銇°倗', kata: '銉併儳', romaji: 'cho', row: 'cha', col: 4 },
-    
-    { hira: '銇們', kata: '銉嬨儯', romaji: 'nya', row: 'nya', col: 0 },
-    { hira: '銇倕', kata: '銉嬨儱', romaji: 'nyu', row: 'nya', col: 2 },
-    { hira: '銇倗', kata: '銉嬨儳', romaji: 'nyo', row: 'nya', col: 4 },
-    
-    { hira: '銇层們', kata: '銉掋儯', romaji: 'hya', row: 'hya', col: 0 },
-    { hira: '銇层倕', kata: '銉掋儱', romaji: 'hyu', row: 'hya', col: 2 },
-    { hira: '銇层倗', kata: '銉掋儳', romaji: 'hyo', row: 'hya', col: 4 },
-    
-    { hira: '銇裤們', kata: '銉熴儯', romaji: 'mya', row: 'mya', col: 0 },
-    { hira: '銇裤倕', kata: '銉熴儱', romaji: 'myu', row: 'mya', col: 2 },
-    { hira: '銇裤倗', kata: '銉熴儳', romaji: 'myo', row: 'mya', col: 4 },
-    
-    { hira: '銈娿們', kata: '銉儯', romaji: 'rya', row: 'rya', col: 0 },
-    { hira: '銈娿倕', kata: '銉儱', romaji: 'ryu', row: 'rya', col: 2 },
-    { hira: '銈娿倗', kata: '銉儳', romaji: 'ryo', row: 'rya', col: 4 },
-    
-    { hira: '銇庛們', kata: '銈儯', romaji: 'gya', row: 'gya', col: 0 },
-    { hira: '銇庛倕', kata: '銈儱', romaji: 'gyu', row: 'gya', col: 2 },
-    { hira: '銇庛倗', kata: '銈儳', romaji: 'gyo', row: 'gya', col: 4 },
-    
-    { hira: '銇樸們', kata: '銈搞儯', romaji: 'ja', row: 'ja', col: 0 },
-    { hira: '銇樸倕', kata: '銈搞儱', romaji: 'ju', row: 'ja', col: 2 },
-    { hira: '銇樸倗', kata: '銈搞儳', romaji: 'jo', row: 'ja', col: 4 },
-    
-    { hira: '銇們', kata: '銉傘儯', romaji: 'ja', row: 'ja2', col: 0 },
-    { hira: '銇倕', kata: '銉傘儱', romaji: 'ju', row: 'ja2', col: 2 },
-    { hira: '銇倗', kata: '銉傘儳', romaji: 'jo', row: 'ja2', col: 4 },
-    
-    { hira: '銇炽們', kata: '銉撱儯', romaji: 'bya', row: 'bya', col: 0 },
-    { hira: '銇炽倕', kata: '銉撱儱', romaji: 'byu', row: 'bya', col: 2 },
-    { hira: '銇炽倗', kata: '銉撱儳', romaji: 'byo', row: 'bya', col: 4 },
-    
-    { hira: '銇淬們', kata: '銉斻儯', romaji: 'pya', row: 'pya', col: 0 },
-    { hira: '銇淬倕', kata: '銉斻儱', romaji: 'pyu', row: 'pya', col: 2 },
-    { hira: '銇淬倗', kata: '銉斻儳', romaji: 'pyo', row: 'pya', col: 4 },
+    { hira: 'きゃ', kata: 'キャ', romaji: 'kya', row: 'kya', col: 0 },
+    { hira: 'きゅ', kata: 'キュ', romaji: 'kyu', row: 'kya', col: 2 },
+    { hira: 'きょ', kata: 'キョ', romaji: 'kyo', row: 'kya', col: 4 },
+
+    { hira: 'しゃ', kata: 'シャ', romaji: 'sha', row: 'sha', col: 0 },
+    { hira: 'しゅ', kata: 'シュ', romaji: 'shu', row: 'sha', col: 2 },
+    { hira: 'しょ', kata: 'ショ', romaji: 'sho', row: 'sha', col: 4 },
+
+    { hira: 'ちゃ', kata: 'チャ', romaji: 'cha', row: 'cha', col: 0 },
+    { hira: 'ちゅ', kata: 'チュ', romaji: 'chu', row: 'cha', col: 2 },
+    { hira: 'ちょ', kata: 'チョ', romaji: 'cho', row: 'cha', col: 4 },
+
+    { hira: 'にゃ', kata: 'ニャ', romaji: 'nya', row: 'nya', col: 0 },
+    { hira: 'にゅ', kata: 'ニュ', romaji: 'nyu', row: 'nya', col: 2 },
+    { hira: 'にょ', kata: 'ニョ', romaji: 'nyo', row: 'nya', col: 4 },
+
+    { hira: 'ひゃ', kata: 'ヒャ', romaji: 'hya', row: 'hya', col: 0 },
+    { hira: 'ひゅ', kata: 'ヒュ', romaji: 'hyu', row: 'hya', col: 2 },
+    { hira: 'ひょ', kata: 'ヒョ', romaji: 'hyo', row: 'hya', col: 4 },
+
+    { hira: 'みゃ', kata: 'ミャ', romaji: 'mya', row: 'mya', col: 0 },
+    { hira: 'みゅ', kata: 'ミュ', romaji: 'myu', row: 'mya', col: 2 },
+    { hira: 'みょ', kata: 'ミョ', romaji: 'myo', row: 'mya', col: 4 },
+
+    { hira: 'りゃ', kata: 'リャ', romaji: 'rya', row: 'rya', col: 0 },
+    { hira: 'りゅ', kata: 'リュ', romaji: 'ryu', row: 'rya', col: 2 },
+    { hira: 'りょ', kata: 'リョ', romaji: 'ryo', row: 'rya', col: 4 },
+
+    { hira: 'ぎゃ', kata: 'ギャ', romaji: 'gya', row: 'gya', col: 0 },
+    { hira: 'ぎゅ', kata: 'ギュ', romaji: 'gyu', row: 'gya', col: 2 },
+    { hira: 'ぎょ', kata: 'ギョ', romaji: 'gyo', row: 'gya', col: 4 },
+
+    { hira: 'じゃ', kata: 'ジャ', romaji: 'ja', row: 'ja', col: 0 },
+    { hira: 'じゅ', kata: 'ジュ', romaji: 'ju', row: 'ja', col: 2 },
+    { hira: 'じょ', kata: 'ジョ', romaji: 'jo', row: 'ja', col: 4 },
+
+    { hira: 'ぢゃ', kata: 'ヂャ', romaji: 'ja', row: 'ja2', col: 0 },
+    { hira: 'ぢゅ', kata: 'ヂュ', romaji: 'ju', row: 'ja2', col: 2 },
+    { hira: 'ぢょ', kata: 'ヂョ', romaji: 'jo', row: 'ja2', col: 4 },
+
+    { hira: 'びゃ', kata: 'ビャ', romaji: 'bya', row: 'bya', col: 0 },
+    { hira: 'びゅ', kata: 'ビュ', romaji: 'byu', row: 'bya', col: 2 },
+    { hira: 'びょ', kata: 'ビョ', romaji: 'byo', row: 'bya', col: 4 },
+
+    { hira: 'ぴゃ', kata: 'ピャ', romaji: 'pya', row: 'pya', col: 0 },
+    { hira: 'ぴゅ', kata: 'ピュ', romaji: 'pyu', row: 'pya', col: 2 },
+    { hira: 'ぴょ', kata: 'ピョ', romaji: 'pyo', row: 'pya', col: 4 },
 ]
 
 const basicDataset = seionData.filter(i => i.hira)
@@ -157,60 +157,60 @@ export function getDataset(level) {
 }
 
 export const basicData = [
-    { hira: '銇?, kata: '銈?, romaji: 'a', mnemonic: '鍍忔眽瀛?瀹?鐨勭畝鍖?, word: '銇傘倞銇屻仺銇? },
-    { hira: '銇?, kata: '銈?, romaji: 'i', mnemonic: '鍍忔暟瀛?1"', word: '銇勩仱銈? },
-    { hira: '銇?, kata: '銈?, romaji: 'u', mnemonic: '鍍忔眽瀛?瀹?', word: '銇嗐伩' },
-    { hira: '銇?, kata: '銈?, romaji: 'e', mnemonic: '鍍忔眽瀛?琛?', word: '銇堛倱' },
-    { hira: '銇?, kata: '銈?, romaji: 'o', mnemonic: '鍍忔眽瀛?鏂?', word: '銇娿亜銇椼亜' },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'ka', mnemonic: '鍍忔眽瀛?鍔?', word: '銇嬨亪銈? },
-    { hira: '銇?, kata: '銈?, romaji: 'ki', mnemonic: '鍍忔眽瀛?鏈?', word: '銇嶃倗銇? },
-    { hira: '銇?, kata: '銈?, romaji: 'ku', mnemonic: '鍍忔眽瀛?涔?', word: '銇忋倠銇? },
-    { hira: '銇?, kata: '銈?, romaji: 'ke', mnemonic: '鍍忔眽瀛?璁?', word: '銇戙亜銇? },
-    { hira: '銇?, kata: '銈?, romaji: 'ko', mnemonic: '鍍忔眽瀛?宸?', word: '銇撱仺' },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'sa', mnemonic: '鍍忔眽瀛?宸?', word: '銇曘亸銈? },
-    { hira: '銇?, kata: '銈?, romaji: 'shi', mnemonic: '鍍忔眽瀛?涔?', word: '銇椼倗銇忋仼銇? },
-    { hira: '銇?, kata: '銈?, romaji: 'su', mnemonic: '鍍忔眽瀛?瀵?', word: '銇欍仐' },
-    { hira: '銇?, kata: '銈?, romaji: 'se', mnemonic: '鍍忔眽瀛?涓?', word: '銇涖倱銇涖亜' },
-    { hira: '銇?, kata: '銈?, romaji: 'so', mnemonic: '鍍忔眽瀛?鏇?', word: '銇濄倝' },
-    
-    { hira: '銇?, kata: '銈?, romaji: 'ta', mnemonic: '鍍忔眽瀛?澶?', word: '銇熴伖銈傘伄' },
-    { hira: '銇?, kata: '銉?, romaji: 'chi', mnemonic: '鍍忔眽瀛?鍗?', word: '銇°仭' },
-    { hira: '銇?, kata: '銉?, romaji: 'tsu', mnemonic: '鍍忔眽瀛?绐?', word: '銇ゃ亸銇? },
-    { hira: '銇?, kata: '銉?, romaji: 'te', mnemonic: '鍍忔眽瀛?澶?', word: '銇︺倱銇? },
-    { hira: '銇?, kata: '銉?, romaji: 'to', mnemonic: '鍍忔眽瀛?姝?', word: '銇ㄣ倐銇犮仭' },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'na', mnemonic: '鍍忔眽瀛?濂?', word: '銇伨銇? },
-    { hira: '銇?, kata: '銉?, romaji: 'ni', mnemonic: '鍍忔眽瀛?浠?', word: '銇伝銈? },
-    { hira: '銇?, kata: '銉?, romaji: 'nu', mnemonic: '鍍忔眽瀛?濂?', word: '銇倠銇? },
-    { hira: '銇?, kata: '銉?, romaji: 'ne', mnemonic: '鍍忔眽瀛?绁?', word: '銇亾' },
-    { hira: '銇?, kata: '銉?, romaji: 'no', mnemonic: '鍍忔眽瀛?涔?', word: '銇伩銈傘伄' },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'ha', mnemonic: '鍍忔眽瀛?娉?', word: '銇仾' },
-    { hira: '銇?, kata: '銉?, romaji: 'hi', mnemonic: '鍍忔眽瀛?姣?', word: '銇层仺' },
-    { hira: '銇?, kata: '銉?, romaji: 'fu', mnemonic: '鍍忔眽瀛?涓?', word: '銇点亸' },
-    { hira: '銇?, kata: '銉?, romaji: 'he', mnemonic: '鍍忔眽瀛?閮?', word: '銇搞倓' },
-    { hira: '銇?, kata: '銉?, romaji: 'ho', mnemonic: '鍍忔眽瀛?淇?', word: '銇汇倱' },
-    
-    { hira: '銇?, kata: '銉?, romaji: 'ma', mnemonic: '鍍忔眽瀛?鏈?', word: '銇俱仭' },
-    { hira: '銇?, kata: '銉?, romaji: 'mi', mnemonic: '鍍忔眽瀛?缇?', word: '銇裤仛' },
-    { hira: '銈€', kata: '銉?, romaji: 'mu', mnemonic: '鍍忔眽瀛?姝?', word: '銈€銇欍倎' },
-    { hira: '銈?, kata: '銉?, romaji: 'me', mnemonic: '鍍忔眽瀛?濂?', word: '銈併亴銇? },
-    { hira: '銈?, kata: '銉?, romaji: 'mo', mnemonic: '鍍忔眽瀛?姣?', word: '銈傘伄' },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'ya', mnemonic: '鍍忔眽瀛?涔?', word: '銈勩仌銇椼亜' },
-    { hira: '銈?, kata: '銉?, romaji: 'yu', mnemonic: '鍍忔眽瀛?鐢?', word: '銈嗐亶' },
-    { hira: '銈?, kata: '銉?, romaji: 'yo', mnemonic: '鍍忔眽瀛?涓?', word: '銈堛倠' },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'ra', mnemonic: '鍍忔眽瀛?鑹?', word: '銈夈亜銇? },
-    { hira: '銈?, kata: '銉?, romaji: 'ri', mnemonic: '鍍忔眽瀛?鍒?', word: '銈娿倱銇? },
-    { hira: '銈?, kata: '銉?, romaji: 'ru', mnemonic: '鍍忔眽瀛?娴?', word: '銈嬨仚銇般倱' },
-    { hira: '銈?, kata: '銉?, romaji: 're', mnemonic: '鍍忔眽瀛?绀?', word: '銈屻倱銇傘亜' },
-    { hira: '銈?, kata: '銉?, romaji: 'ro', mnemonic: '鍍忔眽瀛?鍛?', word: '銈嶃亞銇? },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'wa', mnemonic: '鍍忔眽瀛?鍜?', word: '銈忋仧銇? },
-    { hira: '銈?, kata: '銉?, romaji: 'wo', mnemonic: '鍍忔眽瀛?閬?', word: '銈掋仺銈? },
-    
-    { hira: '銈?, kata: '銉?, romaji: 'n', mnemonic: '鍍忔眽瀛?灏?', word: '銇伝銈撱仈' },
+    { hira: 'あ', kata: 'ア', romaji: 'a', mnemonic: '像汉字"安"的简化', word: 'あいうえお' },
+    { hira: 'い', kata: 'イ', romaji: 'i', mnemonic: '像数字"1"', word: 'いち' },
+    { hira: 'う', kata: 'ウ', romaji: 'u', mnemonic: '像汉字"宇"', word: 'うし' },
+    { hira: 'え', kata: 'エ', romaji: 'e', mnemonic: '像汉字"工"', word: 'えき' },
+    { hira: 'お', kata: 'オ', romaji: 'o', mnemonic: '像汉字"才"', word: 'おかね' },
+
+    { hira: 'か', kata: 'カ', romaji: 'ka', mnemonic: '像汉字"力"', word: 'かいしゃ' },
+    { hira: 'き', kata: 'キ', romaji: 'ki', mnemonic: '像汉字"木"', word: 'きょう' },
+    { hira: 'く', kata: 'ク', romaji: 'ku', mnemonic: '像汉字"久"', word: 'くるま' },
+    { hira: 'け', kata: 'ケ', romaji: 'ke', mnemonic: '像汉字"计"', word: 'けん' },
+    { hira: 'こ', kata: 'コ', romaji: 'ko', mnemonic: '像汉字"己"', word: 'こえ' },
+
+    { hira: 'さ', kata: 'サ', romaji: 'sa', mnemonic: '像汉字"差"', word: 'さんぽ' },
+    { hira: 'し', kata: 'シ', romaji: 'shi', mnemonic: '像汉字"汁"', word: 'しお' },
+    { hira: 'す', kata: 'ス', romaji: 'su', mnemonic: '像汉字"寸"', word: 'すし' },
+    { hira: 'せ', kata: 'セ', romaji: 'se', mnemonic: '像汉字"世"', word: 'せかい' },
+    { hira: 'そ', kata: 'ソ', romaji: 'so', mnemonic: '像汉字"曾"', word: 'そら' },
+
+    { hira: 'た', kata: 'タ', romaji: 'ta', mnemonic: '像汉字"多"', word: 'たべる' },
+    { hira: 'ち', kata: 'チ', romaji: 'chi', mnemonic: '像汉字"千"', word: 'ちち' },
+    { hira: 'つ', kata: 'ツ', romaji: 'tsu', mnemonic: '像汉字"川"', word: 'つき' },
+    { hira: 'て', kata: 'テ', romaji: 'te', mnemonic: '像汉字"天"', word: 'てんき' },
+    { hira: 'と', kata: 'ト', romaji: 'to', mnemonic: '像汉字"止"', word: 'としょかん' },
+
+    { hira: 'な', kata: 'ナ', romaji: 'na', mnemonic: '像汉字"女"', word: 'なつ' },
+    { hira: 'に', kata: 'ニ', romaji: 'ni', mnemonic: '像汉字"仁"', word: 'にほん' },
+    { hira: 'ぬ', kata: 'ヌ', romaji: 'nu', mnemonic: '像汉字"奴"', word: 'ぬの' },
+    { hira: 'ね', kata: 'ネ', romaji: 'ne', mnemonic: '像汉字"祢"', word: 'ねこ' },
+    { hira: 'の', kata: 'ノ', romaji: 'no', mnemonic: '像汉字"乃"', word: 'のりもの' },
+
+    { hira: 'は', kata: 'ハ', romaji: 'ha', mnemonic: '像汉字"八"', word: 'はな' },
+    { hira: 'ひ', kata: 'ヒ', romaji: 'hi', mnemonic: '像汉字"比"', word: 'ひと' },
+    { hira: 'ふ', kata: 'フ', romaji: 'fu', mnemonic: '像汉字"不"', word: 'ふじさん' },
+    { hira: 'へ', kata: 'ヘ', romaji: 'he', mnemonic: '像汉字"部"', word: 'へや' },
+    { hira: 'ほ', kata: 'ホ', romaji: 'ho', mnemonic: '像汉字"保"', word: 'ほん' },
+
+    { hira: 'ま', kata: 'マ', romaji: 'ma', mnemonic: '像汉字"末"', word: 'まる' },
+    { hira: 'み', kata: 'ミ', romaji: 'mi', mnemonic: '像汉字"三"', word: 'みち' },
+    { hira: 'む', kata: 'ム', romaji: 'mu', mnemonic: '像汉字"牟"', word: 'むし' },
+    { hira: 'め', kata: 'メ', romaji: 'me', mnemonic: '像汉字"女"', word: 'めがね' },
+    { hira: 'も', kata: 'モ', romaji: 'mo', mnemonic: '像汉字"毛"', word: 'もり' },
+
+    { hira: 'や', kata: 'ヤ', romaji: 'ya', mnemonic: '像汉字"也"', word: 'やま' },
+    { hira: 'ゆ', kata: 'ユ', romaji: 'yu', mnemonic: '像汉字"由"', word: 'ゆき' },
+    { hira: 'よ', kata: 'ヨ', romaji: 'yo', mnemonic: '像汉字"与"', word: 'よる' },
+
+    { hira: 'ら', kata: 'ラ', romaji: 'ra', mnemonic: '像汉字"良"', word: 'らいおん' },
+    { hira: 'り', kata: 'リ', romaji: 'ri', mnemonic: '像汉字"利"', word: 'りんご' },
+    { hira: 'る', kata: 'ル', romaji: 'ru', mnemonic: '像汉字"留"', word: 'るすばん' },
+    { hira: 'れ', kata: 'レ', romaji: 're', mnemonic: '像汉字"礼"', word: 'れきし' },
+    { hira: 'ろ', kata: 'ロ', romaji: 'ro', mnemonic: '像汉字"吕"', word: 'ろうそく' },
+
+    { hira: 'わ', kata: 'ワ', romaji: 'wa', mnemonic: '像汉字"和"', word: 'わたし' },
+    { hira: 'を', kata: 'ヲ', romaji: 'wo', mnemonic: '像汉字"乎"', word: 'を' },
+
+    { hira: 'ん', kata: 'ン', romaji: 'n', mnemonic: '像汉字"儿"', word: 'にほんご' },
 ]
